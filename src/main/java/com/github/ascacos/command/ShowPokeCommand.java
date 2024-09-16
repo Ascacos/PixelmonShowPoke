@@ -113,7 +113,7 @@ public class ShowPokeCommand {
             // Create chat message component + hover info
             TextComponent specsComponent = new StringTextComponent(string.toString());
 
-            String broadcastMessage = "\n" + TextFormatting.GOLD + player.getName()
+            String broadcastMessage = "\n" + TextFormatting.GOLD + player.getName().getString()
                     + TextFormatting.YELLOW + " is showing off a "
                     + TextFormatting.GOLD + pokemon.getSpecies().getName()
                     + TextFormatting.YELLOW + ", hover for info!\n";
