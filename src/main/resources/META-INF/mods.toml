@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="pixelmonshowpoke"
+version="0.0.1"
+displayName="PixelmonShowPoke"
+displayURL="https://github.com/Ascacos"
+credits="https://github.com/Ascacos"
+authors="https://github.com/Ascacos"
+description='''
+A basic Pixelmon sidemod to show Pokemon in chat.
+'''
+
+[[dependencies.pixelmonshowpoke]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pixelmonshowpoke]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.pixelmonshowpoke]]
+    modId="pixelmon"
+    mandatory=true
+    versionRange="[9.1.2,)"
+    ordering="NONE"
+    side="BOTH"
